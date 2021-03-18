@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "a11c6b61-29f0-405c-874e-b81d52d14443"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -30,13 +33,15 @@
             "styles": [
               "src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+
             ],
-            "scripts": [
+            "scripts":  [
               "./node_modules/jquery/dist/jquery.js",
               "./node_modules/popper.js/dist/umd/popper.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.js"
-
-            ]
+              
+              ]
+              
           },
           "configurations": {
             "production": {
@@ -130,8 +135,5 @@
       }
     }
   },
-  "defaultProject": "blogPessoal",
-  "cli": {
-    "analytics": "cf6552dd-5eac-4164-8959-0284603d8b37"
-  }
+  "defaultProject": "blogPessoal"
 }
